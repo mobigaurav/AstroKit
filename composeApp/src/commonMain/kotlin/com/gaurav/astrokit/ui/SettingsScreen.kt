@@ -238,12 +238,12 @@ fun SettingsScreen(
                     SettingsRow(
                         title = "Privacy Policy",
                         subtitle = "We’ll host this on GitHub Pages",
-                        onClick = { openUrl("https://example.com/privacy") } // swap later
+                        onClick = { openUrl("https://github.com/mobigaurav/AstroKit/blob/main/docs/privacy.md") } // swap later
                     )
                     SettingsRow(
                         title = "Terms of Service",
                         subtitle = "We’ll host this on GitHub Pages",
-                        onClick = { openUrl("https://example.com/terms") } // swap later
+                        onClick = { openUrl("https://github.com/mobigaurav/AstroKit/blob/main/docs/terms.md") } // swap later
                     )
                 }
             }
